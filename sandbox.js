@@ -7,7 +7,7 @@ const output = document.querySelector(".output");
 
 
 btnSubmit.disabled = true;
-input.style.border = "1px solid red"
+input.style.border = "2px solid red"
 
 
 

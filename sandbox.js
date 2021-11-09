@@ -16,7 +16,7 @@ input.addEventListener('input', function () {
 
     let value = input.value
 
-    if (value.length > 3) {
+    if (value.length > 10) {
         input.style.border = "1px solid green"
         btnSubmit.disabled = false
 
@@ -36,7 +36,7 @@ let error = "Error: your passowrd is weak"
 function passwordChecker() {
 
     let value = input.value
-    if (value.length > 3) {
+    if (value.length > 10) {
         output.innerText = success
 
     } else {
